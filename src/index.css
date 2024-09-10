@@ -1,0 +1,168 @@
+ 
+html {
+  border-left: 0px solid lightgray;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+header,
+main,
+footer {
+  margin: 20px 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-left:0;
+  margin: 20px 0;
+}
+
+ 
+.main-nav,
+.footer-nav {
+  display: flex;
+  justify-content: space-between;  
+  padding: 0;
+  margin-left: 0px;  
+  list-style-type: none;
+  color: lightgray;
+
+  position:0;
+  left:0;
+  margin: 20px 0;
+
+
+}
+
+.main-nav a,
+.footer-nav a {
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.main-nav a {
+  color: lightgray;
+  text-decoration: underline;
+  /* padding: 1rem 2rem; */
+  margin: 20px 0;
+}
+
+.footer-nav a {
+  color: tomato;
+  margin: 20px 0;
+}
+
+ 
+.main-nav a:hover,
+.footer-nav a:hover {
+  color: black;
+  margin: 20px 0;
+}
+
+ 
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+  margin: 20px 0;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+article p::first-letter {
+  font-size: 2rem;
+  color: lightgray;
+  margin: 20px 0;
+}
+
+ 
+.continue-link {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+}
+
+.continue-link:hover {
+  text-decoration: underline;
+}
+
+ 
+footer {
+  padding: 1rem;
+  text-align: left;
+  margin: 20px 0;
+}
+
+footer p {
+  color: lightgray;
+  margin: 20px 0;
+}
+
+ 
+h1,
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+  font-weight: 1;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin: 20px 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 80px;
+  color: #da6a6a;
+  margin: 20px 0;
+}
+
+h2 {
+   
+  font-size: 18px;
+  color: rgb(100, 88, 88);
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  /* margin-bottom: 5px; */
+  margin: 20px 0;
+}
+
+h4 {
+  /* margin-top: 0px; */
+  font-size: 40px;
+  color: rgb(99, 95, 95);
+  margin: 20px 0;
+}
+
+ 
+p {
+  margin-top: 5px;
+  text-align: left;
+  margin: 20px 0;
+}
+ 
+h1, h2, h3, h4 {
+  text-align: left; /* Ensures text inside the elements is aligned to the left */
+  margin-left: 0; /* Removes any left margin */
+  display: block; /* Makes sure the elements are treated as block elements */
+  position: relative; /* Optional: Enables further positioning if needed */
+  margin: 0px 0;
+}
